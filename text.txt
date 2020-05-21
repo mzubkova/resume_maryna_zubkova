@@ -1,0 +1,11 @@
+.bracket:after {
+  content:"]";
+  font-weight: 700;
+  color: #000;
+}
+
+.bracket:before {
+  content:"[";
+  font-weight: 700;
+  color: #000;
+}
