@@ -108,9 +108,11 @@ h5 {
 
 .sidebar {
   background: linear-gradient(
-    180deg, rgba(2,0,36,1) 0%,
-    rgba(35,146,135,1) 80%,
-    rgba(255,255,255,1) 100%);
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(35, 146, 135, 1) 80%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: auto;
   width: 370px;
 }
@@ -131,9 +133,10 @@ h5 {
   .sidebar {
     background: linear-gradient(
       180deg,
-      rgba(2,0,36,1) 70%,
-      rgba(35,146,135,1) 95%,
-      rgba(139,177,178,1) 100%);
+      rgba(2, 0, 36, 1) 70%,
+      rgba(35, 146, 135, 1) 95%,
+      rgba(139, 177, 178, 1) 100%
+    );
     width: 100%;
   }
 }
@@ -286,8 +289,8 @@ i {
 
 @media (max-width: 479px) {
   .container-info {
-    padding: 0;
     margin: 10px 15px;
+    padding: 0;
   }
 }
 
@@ -368,8 +371,8 @@ i {
 
 @media (max-width: 479px) {
   .box-education {
-    margin-left: 15px;
     margin-bottom: 35px;
+    margin-left: 15px;
   }
 
   .box-education > h3 {
@@ -413,8 +416,8 @@ i {
 
 @media (max-width: 479px) {
   .box-qualifications {
-    margin-left: 15px;
     margin-bottom: 35px;
+    margin-left: 15px;
   }
 
   .box-qualifications > h3 {
@@ -461,8 +464,8 @@ i {
 }
 
 .box-experience > ul {
-  margin-top: 10px;
   margin-left: 15px;
+  margin-top: 10px;
 }
 
 @media (max-width: 479px) {
@@ -507,11 +510,13 @@ i {
     50% 150%,
     ellipse,
     rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%);
+    rgba(0, 0, 0, 0) 80%
+  );
   background: radial-gradient(
     ellipse at 50% 150%,
     rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%);
+    rgba(0, 0, 0, 0) 80%
+  );
   bottom: 100%;
 }
 
@@ -520,11 +525,13 @@ i {
     50% -50%,
     ellipse,
     rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%);
+    rgba(0, 0, 0, 0) 80%
+  );
   background: radial-gradient(
     ellipse at 50% -50%,
     rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%);
+    rgba(0, 0, 0, 0) 80%
+  );
   top: 100%;
 }
 
