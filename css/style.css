@@ -77,6 +77,11 @@ h5 {
   }
 }
 
+.fab {
+  color: #fff;
+  margin-right: 10px;
+}
+
 .container {
   background-color: #fff;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
@@ -221,7 +226,7 @@ h5 {
 }
 
 .sidebar-text--mark {
-  color: #d6d8db;
+ color: #fff;
 }
 
 .sidebar-link {
@@ -232,6 +237,16 @@ h5 {
   .sidebar-link {
     font-size: 0.7rem;
   }
+}
+
+.sidebar-social {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.sidebar-text--social {
+  color: #fff;
+  text-decoration: none;
 }
 
 i {
